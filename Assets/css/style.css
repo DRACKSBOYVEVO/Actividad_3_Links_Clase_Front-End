@@ -1,0 +1,69 @@
+/*Fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;700&display=swap');
+
+hmtl, body {
+    background-color: rgb(139, 139, 139); /*color de fondo*/
+    height: 100%; /*Alto de 100%*/
+    font-family: 'Roboto', sans-serif;
+}
+
+.contenedor {
+    height: 100%;
+    padding: 21px;
+    grid-gap: 6px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(101px, 1fr));
+    grid-auto-flow: 76px;
+    grid-auto-flow: dense;
+}
+
+.contenedor div {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    letter-spacing: 1px; /*espaciado entre las letras*/
+    color: white;
+    background-color: teal;
+    display: flex;align-items: center;
+    overflow: hidden;
+}
+
+.contenedor div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.horizontal {
+    grid-column: auto / span 1;
+}
+
+.vertical {
+    grid-row: auto / span 1;
+}
+
+.grande {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.image-1 img {
+    width: 50%;
+    height: 50%;
+}
+
+div.imagen img.img-inicial {
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px;
+    height: 50%;
+    margin-right: 15px;
+}
+
+div.textos-2 {
+    margin-left: 500px;
+}
+
+div.textos-3 {
+    margin-left: 950px;
+}
+
